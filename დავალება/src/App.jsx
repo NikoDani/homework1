@@ -1,13 +1,16 @@
-import React from 'react';
 import './App.css';
 
 function App() {
   return (
-    <div className="container">
-      <h1 className="title">სახელი: ნიკოლოზ</h1>
-      <h1 className="title">გვარი: ჯოხაძე</h1>
-      <h1 className="title">ასაკი: 15</h1>
-      <h1 className="title">ჰობი: წყალბურთი, კოდინგი და ფეხბურთი</h1>
+    <div className="app-container">
+      <h1 className="title">ჩემს შესახებ</h1>
+      
+      <div className="info-card">
+        <h1 className="info-item">სახელი: მარიამ</h1>
+        <h1 className="info-item">გვარი: ბერიძე</h1>
+        <h1 className="info-item">ასაკი: 12 წლის</h1>
+        <h1 className="info-item">ჰობი: ხატვა და მუსიკა</h1>
+      </div>
     </div>
   );
 }
